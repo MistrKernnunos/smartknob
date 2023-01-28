@@ -7,7 +7,8 @@ void SerialProtocolPlaintext::handleState(const PB_SmartKnobState& state) {
         || (latest_state_.config.detent_strength_unit != state.config.detent_strength_unit)
         || (latest_state_.config.endstop_strength_unit != state.config.endstop_strength_unit)
         || (latest_state_.config.min_position != state.config.min_position)
-        || (latest_state_.config.max_position != state.config.max_position);
+        || (latest_state_.config.max_position != state.config.max_position)
+        || state.config_changed;
     latest_state_ = state;
 
     if (substantial_change) {

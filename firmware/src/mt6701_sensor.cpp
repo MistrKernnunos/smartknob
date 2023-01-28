@@ -1,6 +1,7 @@
 #include "mt6701_sensor.h"
 #include "driver/spi_master.h"
 
+
 static const float ALPHA = 0.4;
 
 
@@ -51,7 +52,7 @@ void MT6701Sensor::init() {
       .quadhd_io_num = -1,
       .max_transfer_sz = 1000,
   };
-  esp_err_t ret = spi_bus_initialize(HSPI_HOST, &tx_bus_config, 1);
+  esp_err_t ret = spi_bus_initialize(SPI3_HOST, &tx_bus_config, SPI_DMA_CH_AUTO);
   ESP_ERROR_CHECK(ret);
 
   spi_device_interface_config_t tx_device_config = {
@@ -70,7 +71,7 @@ void MT6701Sensor::init() {
       .pre_cb=NULL,
       .post_cb=NULL,
   };
-  ret=spi_bus_add_device(HSPI_HOST, &tx_device_config, &spi_device_);
+  ret=spi_bus_add_device(SPI3_HOST, &tx_device_config, &spi_device_);
   ESP_ERROR_CHECK(ret);
 
 

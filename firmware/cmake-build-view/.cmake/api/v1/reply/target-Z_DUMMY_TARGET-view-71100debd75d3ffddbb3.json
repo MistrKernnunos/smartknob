@@ -1,0 +1,5118 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Z_DUMMY_TARGET"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"CMakeListsPrivate.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 83,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 80,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 85,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 86,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 84,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 55,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 49,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 50,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 52,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 81,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 77,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 68,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 82,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 54,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 71,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 76,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 66,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 65,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 72,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 78,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 40,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 41,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 44,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 43,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 35,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 36,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 38,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 33,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 69,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 70,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 64,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 61,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 62,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 57,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 58,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 59,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 63,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 73,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 53,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 51,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 74,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 75,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 79,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 88,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 89,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 90,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 91,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 92,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 93,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 94,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 95,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 96,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 97,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 98,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 99,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 100,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 101,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 102,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 103,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 104,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 105,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 107,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 108,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 109,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 110,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 111,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 112,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 113,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 114,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 115,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 116,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 117,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 118,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 119,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 120,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 121,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 122,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 123,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 124,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 125,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 126,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 127,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 128,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 129,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 130,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 131,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 132,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 133,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 134,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 135,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 136,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 137,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 138,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 139,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 140,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 141,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 142,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 143,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 144,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 145,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 146,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 147,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 148,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 149,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 150,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 151,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 152,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 153,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 154,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 155,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 156,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 157,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 158,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 159,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 160,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 161,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 162,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 163,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 164,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 165,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 166,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 167,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 168,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 169,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 170,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 171,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 172,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 173,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 174,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 175,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 176,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 177,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 178,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 179,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 180,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 181,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 182,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 183,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 184,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 185,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 186,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 187,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 188,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 189,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 190,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 191,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 192,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 193,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 194,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 195,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 196,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 197,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 198,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 199,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 200,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 201,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 202,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 203,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 204,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 205,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 206,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 207,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 208,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 209,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 210,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 211,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 212,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 213,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 214,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 215,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 216,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 217,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 218,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 219,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 220,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 221,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 222,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 223,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 224,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 225,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 226,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 227,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 228,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 229,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 230,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 231,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 232,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 233,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 234,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 235,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 236,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 237,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 238,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 239,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 240,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 241,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 242,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 243,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 244,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 245,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 246,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 247,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 248,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 249,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 250,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 251,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 252,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 253,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 254,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 255,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 256,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 257,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 258,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 259,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 260,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 261,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 262,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 263,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 264,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 265,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 266,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 267,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 268,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 269,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 270,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 272,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 273,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 274,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 275,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 276,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 277,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 278,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 279,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 280,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 281,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 282,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 283,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 284,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 285,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 286,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 287,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 289,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 290,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 291,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 292,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 293,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 294,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 295,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 296,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mlongcalls -std=gnu++11 -fno-exceptions -fno-rtti -ffunction-sections -fdata-sections -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-unused-parameter -Wno-sign-compare -ggdb -Os -freorder-blocks -Wwrite-strings -fstack-protector -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -MMD -fdiagnostics-color=always"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "ARDUINO=10812"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ARDUINO_ARCH_ESP32"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "ARDUINO_BOARD=\"Espressif ESP32-S3-DevKitC-1\""
+				},
+				{
+					"backtrace" : 7,
+					"define" : "ARDUINO_PARTITION_default"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "ARDUINO_VARIANT=\"esp32s3\""
+				},
+				{
+					"backtrace" : 9,
+					"define" : "BOARD_HAS_PSRAM"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "CGRAM_OFFSET=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "CORE_DEBUG_LEVEL=ARDUHAL_LOG_LEVEL_DEBUG"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "DESCRIPTION_FONT=Roboto_Thin_24"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "DESCRIPTION_Y_OFFSET=20"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "DRAW_ARC=0"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "ESP32"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "ESP_PLATFORM"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "FASTLED_UNUSABLE_PIN_MASK=0x100740LL"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "F_CPU=240000000L"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "GC9A01_DRIVER=1"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "IDF_VER=\"v.4.4.0\""
+				},
+				{
+					"backtrace" : 22,
+					"define" : "LOAD_GFXFF=1"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "LOAD_GLCD=1"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "MBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\""
+				},
+				{
+					"backtrace" : 25,
+					"define" : "NDEBUG"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "NUM_LEDS=8"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "PIN_BUTTON_NEXT=-1"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "PIN_BUTTON_PREV=-1"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "PIN_LCD_BACKLIGHT=19"
+				},
+				{
+					"backtrace" : 30,
+					"define" : "PIN_LED_DATA=7"
+				},
+				{
+					"backtrace" : 31,
+					"define" : "PIN_MT_CLOCK=13"
+				},
+				{
+					"backtrace" : 32,
+					"define" : "PIN_MT_CSN=14"
+				},
+				{
+					"backtrace" : 33,
+					"define" : "PIN_MT_DATA=37"
+				},
+				{
+					"backtrace" : 34,
+					"define" : "PIN_SCL=8"
+				},
+				{
+					"backtrace" : 35,
+					"define" : "PIN_SDA=15"
+				},
+				{
+					"backtrace" : 36,
+					"define" : "PIN_UH=26"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "PIN_UL=25"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "PIN_VH=27"
+				},
+				{
+					"backtrace" : 39,
+					"define" : "PIN_VL=32"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "PIN_WH=12"
+				},
+				{
+					"backtrace" : 41,
+					"define" : "PIN_WL=33"
+				},
+				{
+					"backtrace" : 42,
+					"define" : "PLATFORMIO=60103"
+				},
+				{
+					"backtrace" : 43,
+					"define" : "SENSOR_MT6701=1"
+				},
+				{
+					"backtrace" : 44,
+					"define" : "SK_ALS=0"
+				},
+				{
+					"backtrace" : 45,
+					"define" : "SK_DISPLAY=0"
+				},
+				{
+					"backtrace" : 46,
+					"define" : "SK_INVERT_ROTATION=1"
+				},
+				{
+					"backtrace" : 47,
+					"define" : "SK_LEDS=0"
+				},
+				{
+					"backtrace" : 48,
+					"define" : "SK_STRAIN=0"
+				},
+				{
+					"backtrace" : 49,
+					"define" : "SOC_GPIO_VALID_GPIO_MASK=0xFF0EFFFFFF"
+				},
+				{
+					"backtrace" : 50,
+					"define" : "SOC_GPIO_VALID_OUTPUT_GPIO_MASK=0x30EFFFFFF"
+				},
+				{
+					"backtrace" : 51,
+					"define" : "SPI_FREQUENCY=40000000"
+				},
+				{
+					"backtrace" : 52,
+					"define" : "TFT_BL=-1"
+				},
+				{
+					"backtrace" : 53,
+					"define" : "TFT_CS=21"
+				},
+				{
+					"backtrace" : 54,
+					"define" : "TFT_DC=22"
+				},
+				{
+					"backtrace" : 55,
+					"define" : "TFT_HEIGHT=240"
+				},
+				{
+					"backtrace" : 56,
+					"define" : "TFT_MISO=-1"
+				},
+				{
+					"backtrace" : 57,
+					"define" : "TFT_MOSI=5"
+				},
+				{
+					"backtrace" : 58,
+					"define" : "TFT_RST=4"
+				},
+				{
+					"backtrace" : 59,
+					"define" : "TFT_SCLK=20"
+				},
+				{
+					"backtrace" : 60,
+					"define" : "TFT_WIDTH=240"
+				},
+				{
+					"backtrace" : 61,
+					"define" : "UNITY_INCLUDE_CONFIG_H"
+				},
+				{
+					"backtrace" : 62,
+					"define" : "USER_SETUP_LOADED=1"
+				},
+				{
+					"backtrace" : 63,
+					"define" : "VALUE_OFFSET=30"
+				},
+				{
+					"backtrace" : 64,
+					"define" : "WITH_POSIX"
+				},
+				{
+					"backtrace" : 65,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 66,
+					"define" : "_POSIX_READER_WRITER_LOCKS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 67,
+					"path" : "/home/machavi/Swivel/smartknob/firmware/include"
+				},
+				{
+					"backtrace" : 68,
+					"path" : "/home/machavi/Swivel/smartknob/firmware/src"
+				},
+				{
+					"backtrace" : 69,
+					"path" : "/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit VEML7700 Library"
+				},
+				{
+					"backtrace" : 70,
+					"path" : "/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/src"
+				},
+				{
+					"backtrace" : 71,
+					"path" : "/home/machavi/Swivel/smartknob/firmware/lib/tlv/src"
+				},
+				{
+					"backtrace" : 72,
+					"path" : "/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src"
+				},
+				{
+					"backtrace" : 73,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src"
+				},
+				{
+					"backtrace" : 74,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src"
+				},
+				{
+					"backtrace" : 75,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/config"
+				},
+				{
+					"backtrace" : 76,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/newlib/platform_include"
+				},
+				{
+					"backtrace" : 77,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/freertos/include"
+				},
+				{
+					"backtrace" : 78,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/freertos/include/esp_additions/freertos"
+				},
+				{
+					"backtrace" : 79,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/freertos/port/xtensa/include"
+				},
+				{
+					"backtrace" : 80,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/freertos/include/esp_additions"
+				},
+				{
+					"backtrace" : 81,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_hw_support/include"
+				},
+				{
+					"backtrace" : 82,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_hw_support/include/soc"
+				},
+				{
+					"backtrace" : 83,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_hw_support/include/soc/esp32s3"
+				},
+				{
+					"backtrace" : 84,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_hw_support/port/esp32s3"
+				},
+				{
+					"backtrace" : 85,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_hw_support/port/esp32s3/private_include"
+				},
+				{
+					"backtrace" : 86,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/heap/include"
+				},
+				{
+					"backtrace" : 87,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/log/include"
+				},
+				{
+					"backtrace" : 88,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/lwip/include/apps"
+				},
+				{
+					"backtrace" : 89,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/lwip/include/apps/sntp"
+				},
+				{
+					"backtrace" : 90,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/lwip/lwip/src/include"
+				},
+				{
+					"backtrace" : 91,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/lwip/port/esp32/include"
+				},
+				{
+					"backtrace" : 92,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/lwip/port/esp32/include/arch"
+				},
+				{
+					"backtrace" : 93,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/soc/include"
+				},
+				{
+					"backtrace" : 94,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/soc/esp32s3"
+				},
+				{
+					"backtrace" : 95,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/soc/esp32s3/include"
+				},
+				{
+					"backtrace" : 96,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/hal/esp32s3/include"
+				},
+				{
+					"backtrace" : 97,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/hal/include"
+				},
+				{
+					"backtrace" : 98,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/hal/platform_port/include"
+				},
+				{
+					"backtrace" : 99,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_rom/include"
+				},
+				{
+					"backtrace" : 100,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_rom/include/esp32s3"
+				},
+				{
+					"backtrace" : 101,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_rom/esp32s3"
+				},
+				{
+					"backtrace" : 102,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_common/include"
+				},
+				{
+					"backtrace" : 103,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_system/include"
+				},
+				{
+					"backtrace" : 104,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_system/port/soc"
+				},
+				{
+					"backtrace" : 105,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_system/port/public_compat"
+				},
+				{
+					"backtrace" : 106,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/xtensa/include"
+				},
+				{
+					"backtrace" : 107,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/xtensa/esp32s3/include"
+				},
+				{
+					"backtrace" : 108,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/driver/include"
+				},
+				{
+					"backtrace" : 109,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/driver/esp32s3/include"
+				},
+				{
+					"backtrace" : 110,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_pm/include"
+				},
+				{
+					"backtrace" : 111,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_ringbuf/include"
+				},
+				{
+					"backtrace" : 112,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/efuse/include"
+				},
+				{
+					"backtrace" : 113,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/efuse/esp32s3/include"
+				},
+				{
+					"backtrace" : 114,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/vfs/include"
+				},
+				{
+					"backtrace" : 115,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_wifi/include"
+				},
+				{
+					"backtrace" : 116,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_event/include"
+				},
+				{
+					"backtrace" : 117,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_netif/include"
+				},
+				{
+					"backtrace" : 118,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_eth/include"
+				},
+				{
+					"backtrace" : 119,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/tcpip_adapter/include"
+				},
+				{
+					"backtrace" : 120,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_phy/include"
+				},
+				{
+					"backtrace" : 121,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_phy/esp32s3/include"
+				},
+				{
+					"backtrace" : 122,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_ipc/include"
+				},
+				{
+					"backtrace" : 123,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/app_trace/include"
+				},
+				{
+					"backtrace" : 124,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_timer/include"
+				},
+				{
+					"backtrace" : 125,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/mbedtls/port/include"
+				},
+				{
+					"backtrace" : 126,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/mbedtls/mbedtls/include"
+				},
+				{
+					"backtrace" : 127,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/mbedtls/esp_crt_bundle/include"
+				},
+				{
+					"backtrace" : 128,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/app_update/include"
+				},
+				{
+					"backtrace" : 129,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/spi_flash/include"
+				},
+				{
+					"backtrace" : 130,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/bootloader_support/include"
+				},
+				{
+					"backtrace" : 131,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/nvs_flash/include"
+				},
+				{
+					"backtrace" : 132,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/pthread/include"
+				},
+				{
+					"backtrace" : 133,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_gdbstub/include"
+				},
+				{
+					"backtrace" : 134,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_gdbstub/xtensa"
+				},
+				{
+					"backtrace" : 135,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_gdbstub/esp32s3"
+				},
+				{
+					"backtrace" : 136,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/espcoredump/include"
+				},
+				{
+					"backtrace" : 137,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/espcoredump/include/port/xtensa"
+				},
+				{
+					"backtrace" : 138,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/wpa_supplicant/include"
+				},
+				{
+					"backtrace" : 139,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/wpa_supplicant/port/include"
+				},
+				{
+					"backtrace" : 140,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/wpa_supplicant/esp_supplicant/include"
+				},
+				{
+					"backtrace" : 141,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/ieee802154/include"
+				},
+				{
+					"backtrace" : 142,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/console"
+				},
+				{
+					"backtrace" : 143,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/asio/asio/asio/include"
+				},
+				{
+					"backtrace" : 144,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/asio/port/include"
+				},
+				{
+					"backtrace" : 145,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/bt/common/osi/include"
+				},
+				{
+					"backtrace" : 146,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/bt/include/esp32s3/include"
+				},
+				{
+					"backtrace" : 147,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/bt/common/api/include/api"
+				},
+				{
+					"backtrace" : 148,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/bt/common/btc/profile/esp/blufi/include"
+				},
+				{
+					"backtrace" : 149,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/bt/common/btc/profile/esp/include"
+				},
+				{
+					"backtrace" : 150,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/bt/host/bluedroid/api/include/api"
+				},
+				{
+					"backtrace" : 151,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/cbor/port/include"
+				},
+				{
+					"backtrace" : 152,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/unity/include"
+				},
+				{
+					"backtrace" : 153,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/unity/unity/src"
+				},
+				{
+					"backtrace" : 154,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/cmock/CMock/src"
+				},
+				{
+					"backtrace" : 155,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/coap/port/include"
+				},
+				{
+					"backtrace" : 156,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/coap/libcoap/include"
+				},
+				{
+					"backtrace" : 157,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/nghttp/port/include"
+				},
+				{
+					"backtrace" : 158,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/nghttp/nghttp2/lib/includes"
+				},
+				{
+					"backtrace" : 159,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-tls"
+				},
+				{
+					"backtrace" : 160,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-tls/esp-tls-crypto"
+				},
+				{
+					"backtrace" : 161,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_adc_cal/include"
+				},
+				{
+					"backtrace" : 162,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_hid/include"
+				},
+				{
+					"backtrace" : 163,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/tcp_transport/include"
+				},
+				{
+					"backtrace" : 164,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_http_client/include"
+				},
+				{
+					"backtrace" : 165,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_http_server/include"
+				},
+				{
+					"backtrace" : 166,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_https_ota/include"
+				},
+				{
+					"backtrace" : 167,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_https_server/include"
+				},
+				{
+					"backtrace" : 168,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_lcd/include"
+				},
+				{
+					"backtrace" : 169,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_lcd/interface"
+				},
+				{
+					"backtrace" : 170,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/protobuf-c/protobuf-c"
+				},
+				{
+					"backtrace" : 171,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/protocomm/include/common"
+				},
+				{
+					"backtrace" : 172,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/protocomm/include/security"
+				},
+				{
+					"backtrace" : 173,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/protocomm/include/transports"
+				},
+				{
+					"backtrace" : 174,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/mdns/include"
+				},
+				{
+					"backtrace" : 175,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_local_ctrl/include"
+				},
+				{
+					"backtrace" : 176,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/sdmmc/include"
+				},
+				{
+					"backtrace" : 177,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_serial_slave_link/include"
+				},
+				{
+					"backtrace" : 178,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_websocket_client/include"
+				},
+				{
+					"backtrace" : 179,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/expat/expat/expat/lib"
+				},
+				{
+					"backtrace" : 180,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/expat/port/include"
+				},
+				{
+					"backtrace" : 181,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/wear_levelling/include"
+				},
+				{
+					"backtrace" : 182,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/fatfs/diskio"
+				},
+				{
+					"backtrace" : 183,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/fatfs/vfs"
+				},
+				{
+					"backtrace" : 184,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/fatfs/src"
+				},
+				{
+					"backtrace" : 185,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/freemodbus/common/include"
+				},
+				{
+					"backtrace" : 186,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/idf_test/include"
+				},
+				{
+					"backtrace" : 187,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/idf_test/include/esp32s3"
+				},
+				{
+					"backtrace" : 188,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/jsmn/include"
+				},
+				{
+					"backtrace" : 189,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/json/cJSON"
+				},
+				{
+					"backtrace" : 190,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/libsodium/libsodium/src/libsodium/include"
+				},
+				{
+					"backtrace" : 191,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/libsodium/port_include"
+				},
+				{
+					"backtrace" : 192,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/mqtt/esp-mqtt/include"
+				},
+				{
+					"backtrace" : 193,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/openssl/include"
+				},
+				{
+					"backtrace" : 194,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/perfmon/include"
+				},
+				{
+					"backtrace" : 195,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/spiffs/include"
+				},
+				{
+					"backtrace" : 196,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/usb/include"
+				},
+				{
+					"backtrace" : 197,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/ulp/include"
+				},
+				{
+					"backtrace" : 198,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/wifi_provisioning/include"
+				},
+				{
+					"backtrace" : 199,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/dotprod/include"
+				},
+				{
+					"backtrace" : 200,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/support/include"
+				},
+				{
+					"backtrace" : 201,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/windows/include"
+				},
+				{
+					"backtrace" : 202,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/windows/hann/include"
+				},
+				{
+					"backtrace" : 203,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/windows/blackman/include"
+				},
+				{
+					"backtrace" : 204,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/windows/blackman_harris/include"
+				},
+				{
+					"backtrace" : 205,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/windows/blackman_nuttall/include"
+				},
+				{
+					"backtrace" : 206,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/windows/nuttall/include"
+				},
+				{
+					"backtrace" : 207,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/windows/flat_top/include"
+				},
+				{
+					"backtrace" : 208,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/iir/include"
+				},
+				{
+					"backtrace" : 209,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/fir/include"
+				},
+				{
+					"backtrace" : 210,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/math/include"
+				},
+				{
+					"backtrace" : 211,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/math/add/include"
+				},
+				{
+					"backtrace" : 212,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/math/sub/include"
+				},
+				{
+					"backtrace" : 213,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/math/mul/include"
+				},
+				{
+					"backtrace" : 214,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/math/addc/include"
+				},
+				{
+					"backtrace" : 215,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/math/mulc/include"
+				},
+				{
+					"backtrace" : 216,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/math/sqrt/include"
+				},
+				{
+					"backtrace" : 217,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/matrix/include"
+				},
+				{
+					"backtrace" : 218,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/fft/include"
+				},
+				{
+					"backtrace" : 219,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/dct/include"
+				},
+				{
+					"backtrace" : 220,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/conv/include"
+				},
+				{
+					"backtrace" : 221,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/common/include"
+				},
+				{
+					"backtrace" : 222,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/kalman/ekf/include"
+				},
+				{
+					"backtrace" : 223,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/kalman/ekf_imu13states/include"
+				},
+				{
+					"backtrace" : 224,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/freertos/include/freertos"
+				},
+				{
+					"backtrace" : 225,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/arduino_tinyusb/tinyusb/src"
+				},
+				{
+					"backtrace" : 226,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/arduino_tinyusb/include"
+				},
+				{
+					"backtrace" : 227,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_littlefs/src"
+				},
+				{
+					"backtrace" : 228,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_littlefs/include"
+				},
+				{
+					"backtrace" : 229,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp32-camera/driver/include"
+				},
+				{
+					"backtrace" : 230,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp32-camera/conversions/include"
+				},
+				{
+					"backtrace" : 231,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/fb_gfx/include"
+				},
+				{
+					"backtrace" : 232,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/qspi_qspi/include"
+				},
+				{
+					"backtrace" : 233,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/cores/esp32"
+				},
+				{
+					"backtrace" : 234,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/variants/esp32s3"
+				},
+				{
+					"backtrace" : 235,
+					"path" : "/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit BusIO"
+				},
+				{
+					"backtrace" : 236,
+					"path" : "/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/src"
+				},
+				{
+					"backtrace" : 237,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src"
+				},
+				{
+					"backtrace" : 238,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/AsyncUDP/src"
+				},
+				{
+					"backtrace" : 239,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/BLE/src"
+				},
+				{
+					"backtrace" : 240,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/BluetoothSerial/src"
+				},
+				{
+					"backtrace" : 241,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/DNSServer/src"
+				},
+				{
+					"backtrace" : 242,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/EEPROM/src"
+				},
+				{
+					"backtrace" : 243,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/ESP32/src"
+				},
+				{
+					"backtrace" : 244,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/ESPmDNS/src"
+				},
+				{
+					"backtrace" : 245,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/Ethernet/src"
+				},
+				{
+					"backtrace" : 246,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/FFat/src"
+				},
+				{
+					"backtrace" : 247,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/FS/src"
+				},
+				{
+					"backtrace" : 248,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src"
+				},
+				{
+					"backtrace" : 249,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdate/src"
+				},
+				{
+					"backtrace" : 250,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdateServer/src"
+				},
+				{
+					"backtrace" : 251,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/I2S/src"
+				},
+				{
+					"backtrace" : 252,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/LittleFS/src"
+				},
+				{
+					"backtrace" : 253,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/NetBIOS/src"
+				},
+				{
+					"backtrace" : 254,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/Preferences/src"
+				},
+				{
+					"backtrace" : 255,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/SD/src"
+				},
+				{
+					"backtrace" : 256,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src"
+				},
+				{
+					"backtrace" : 257,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src"
+				},
+				{
+					"backtrace" : 258,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src"
+				},
+				{
+					"backtrace" : 259,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src"
+				},
+				{
+					"backtrace" : 260,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/USB/src"
+				},
+				{
+					"backtrace" : 261,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/Update/src"
+				},
+				{
+					"backtrace" : 262,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src"
+				},
+				{
+					"backtrace" : 263,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src"
+				},
+				{
+					"backtrace" : 264,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src"
+				},
+				{
+					"backtrace" : 265,
+					"path" : "/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src"
+				},
+				{
+					"backtrace" : 266,
+					"path" : "/home/machavi/.platformio/packages/toolchain-riscv32-esp/riscv32-esp-elf/include/c++/8.4.0"
+				},
+				{
+					"backtrace" : 267,
+					"path" : "/home/machavi/.platformio/packages/toolchain-riscv32-esp/riscv32-esp-elf/include/c++/8.4.0/riscv32-esp-elf"
+				},
+				{
+					"backtrace" : 268,
+					"path" : "/home/machavi/.platformio/packages/toolchain-riscv32-esp/lib/gcc/riscv32-esp-elf/8.4.0/include"
+				},
+				{
+					"backtrace" : 269,
+					"path" : "/home/machavi/.platformio/packages/toolchain-riscv32-esp/lib/gcc/riscv32-esp-elf/8.4.0/include-fixed"
+				},
+				{
+					"backtrace" : 270,
+					"path" : "/home/machavi/.platformio/packages/toolchain-riscv32-esp/riscv32-esp-elf/include"
+				},
+				{
+					"backtrace" : 271,
+					"path" : "/home/machavi/.platformio/packages/toolchain-xtensa-esp32s3/xtensa-esp32s3-elf/include/c++/8.4.0"
+				},
+				{
+					"backtrace" : 272,
+					"path" : "/home/machavi/.platformio/packages/toolchain-xtensa-esp32s3/xtensa-esp32s3-elf/include/c++/8.4.0/xtensa-esp32s3-elf"
+				},
+				{
+					"backtrace" : 273,
+					"path" : "/home/machavi/.platformio/packages/toolchain-xtensa-esp32s3/lib/gcc/xtensa-esp32s3-elf/8.4.0/include"
+				},
+				{
+					"backtrace" : 274,
+					"path" : "/home/machavi/.platformio/packages/toolchain-xtensa-esp32s3/lib/gcc/xtensa-esp32s3-elf/8.4.0/include-fixed"
+				},
+				{
+					"backtrace" : 275,
+					"path" : "/home/machavi/.platformio/packages/toolchain-xtensa-esp32s3/xtensa-esp32s3-elf/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				5,
+				7,
+				10,
+				13,
+				18,
+				19,
+				21,
+				25,
+				96,
+				98,
+				102,
+				105,
+				110,
+				122,
+				124,
+				127,
+				146,
+				227,
+				230,
+				233,
+				235,
+				237,
+				241,
+				243,
+				245,
+				247,
+				249,
+				251,
+				254,
+				256,
+				259,
+				260,
+				261,
+				263,
+				264,
+				265,
+				267,
+				268,
+				269,
+				271,
+				272,
+				273,
+				275,
+				277,
+				279,
+				282,
+				283,
+				284,
+				285,
+				286,
+				287,
+				288,
+				289,
+				290,
+				291,
+				292,
+				293,
+				295,
+				296,
+				297,
+				299,
+				301,
+				303,
+				305,
+				307,
+				346,
+				348,
+				351
+			]
+		}
+	],
+	"id" : "Z_DUMMY_TARGET::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-mlongcalls -std=gnu++11 -fno-exceptions -fno-rtti -ffunction-sections -fdata-sections -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-unused-parameter -Wno-sign-compare -ggdb -Os -freorder-blocks -Wwrite-strings -fstack-protector -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -MMD",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Z_DUMMY_TARGET",
+	"nameOnDisk" : "Z_DUMMY_TARGET",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				54,
+				55,
+				57,
+				58,
+				61,
+				62,
+				63,
+				64,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				118,
+				119,
+				120,
+				121,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				309,
+				310,
+				311,
+				312,
+				313,
+				314,
+				315,
+				316,
+				317,
+				318,
+				319,
+				320,
+				321,
+				322,
+				323,
+				324,
+				325,
+				326,
+				327,
+				328,
+				329,
+				330,
+				331,
+				332,
+				333,
+				334,
+				335,
+				336,
+				337,
+				338,
+				339,
+				340,
+				341,
+				342,
+				343,
+				344,
+				345,
+				354
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				5,
+				7,
+				10,
+				13,
+				18,
+				19,
+				21,
+				25,
+				96,
+				98,
+				102,
+				105,
+				110,
+				122,
+				124,
+				127,
+				146,
+				227,
+				230,
+				233,
+				235,
+				237,
+				241,
+				243,
+				245,
+				247,
+				249,
+				251,
+				254,
+				256,
+				259,
+				260,
+				261,
+				263,
+				264,
+				265,
+				267,
+				268,
+				269,
+				271,
+				272,
+				273,
+				275,
+				277,
+				279,
+				282,
+				283,
+				284,
+				285,
+				286,
+				287,
+				288,
+				289,
+				290,
+				291,
+				292,
+				293,
+				295,
+				296,
+				297,
+				299,
+				301,
+				303,
+				305,
+				307,
+				346,
+				348,
+				351
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				6,
+				8,
+				9,
+				11,
+				12,
+				14,
+				15,
+				16,
+				17,
+				20,
+				22,
+				23,
+				24,
+				26,
+				27,
+				36,
+				95,
+				97,
+				99,
+				100,
+				101,
+				103,
+				104,
+				106,
+				107,
+				108,
+				109,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				123,
+				125,
+				126,
+				128,
+				147,
+				156,
+				228,
+				229,
+				231,
+				232,
+				234,
+				236,
+				238,
+				239,
+				240,
+				242,
+				244,
+				246,
+				248,
+				250,
+				252,
+				253,
+				255,
+				257,
+				258,
+				262,
+				266,
+				270,
+				274,
+				276,
+				278,
+				280,
+				281,
+				294,
+				298,
+				300,
+				302,
+				304,
+				306,
+				308,
+				347,
+				349,
+				350,
+				352,
+				353
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				53,
+				56,
+				59,
+				60,
+				65
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "lib/tlv/.piopm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/tlv/LICENSE.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/tlv/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/tlv/library.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/tlv/library.properties",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/tlv/src/Tlv493d.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/tlv/src/Tlv493d.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/tlv/src/util/BusInterface.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/tlv/src/util/BusInterface.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/tlv/src/util/BusInterface2.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/tlv/src/util/RegMask.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/tlv/src/util/RegMask.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/tlv/src/util/Tlv493d_conf.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/display_task.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/display_task.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/font/roboto_light_60.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/knob_data.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/logger.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/motor_task.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/motor_task.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/mt6701_sensor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/mt6701_sensor.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/semaphore_guard.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/task.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/tlv_sensor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/tlv_sensor.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/util.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/.github/workflows/aunit_tests.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/.gitignore",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/.piopm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/CHANGELOG.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/CONTRIBUTING.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/ArrayButtons/ArrayButtons.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/AutoBenchmark/AutoBenchmark.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/AutoBenchmark/ProfilingButtonConfig.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/AutoBenchmark/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/AutoBenchmark/esp32.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/AutoBenchmark/esp8266.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/AutoBenchmark/generate_readme.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/AutoBenchmark/generate_table.awk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/AutoBenchmark/micro.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/AutoBenchmark/nano.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/AutoBenchmark/samd.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/AutoBenchmark/stm32.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/AutoBenchmark/teensy32.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/CapacitiveButton/CapacitiveButton.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/ClickVersusDoubleClickUsingBoth/ClickVersusDoubleClickUsingBoth.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/ClickVersusDoubleClickUsingReleased/ClickVersusDoubleClickUsingReleased.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/ClickVersusDoubleClickUsingSuppression/ClickVersusDoubleClickUsingSuppression.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/Encoded16To4Buttons/Encoded16To4Buttons.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/Encoded16To4Buttons/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/Encoded16To4Buttons/breadboard_16to4_74ls148_small.jpg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/Encoded4To2Buttons/Encoded4To2Buttons.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/Encoded4To2Buttons/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/Encoded4To2Buttons/breadboard_8to3_diodes_small.jpg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/Encoded8To3Buttons/Encoded8To3Buttons.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/Encoded8To3Buttons/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/Encoded8To3Buttons/breadboard_8to3_74ls148_small.jpg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/Encoded8To3Buttons/breadboard_8to3_diodes_small.jpg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/HelloButton/HelloButton.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/LadderButtonCalibrator/LadderButtonCalibrator.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/LadderButtons/LadderButtons.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/LadderButtons/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/LadderButtons/breadboard_resistor_ladder.jpg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/LadderButtonsTiny/LadderButtonsTiny.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/MemoryBenchmark/MemoryBenchmark.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/MemoryBenchmark/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/MemoryBenchmark/attiny.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/MemoryBenchmark/collect.sh",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/MemoryBenchmark/esp32.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/MemoryBenchmark/esp8266.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/MemoryBenchmark/generate_readme.py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/MemoryBenchmark/generate_table.awk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/MemoryBenchmark/micro.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/MemoryBenchmark/nano.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/MemoryBenchmark/samd.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/MemoryBenchmark/stm32.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/MemoryBenchmark/teensy32.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/PressVersusLongPress/PressVersusLongPress.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/SimultaneousButtons/SimultaneousButtons.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/SingleButton/SingleButton.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/SingleButtonFast/SingleButtonFast.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/SingleButtonPullDown/SingleButtonPullDown.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/SingleButtonUsingIEventHandler/SingleButtonUsingIEventHandler.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/Stopwatch/Stopwatch.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/ThreeButtonsUsingOneButtonConfig/ThreeButtonsUsingOneButtonConfig.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/ThreeButtonsUsingOneButtonConfigFast/ThreeButtonsUsingOneButtonConfigFast.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/TunerButtons/TunerButtons.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/TwoButtonsUsingOneButtonConfig/TwoButtonsUsingOneButtonConfig.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/TwoButtonsUsingOneButtonConfigFast/TwoButtonsUsingOneButtonConfigFast.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/examples/TwoButtonsUsingTwoButtonConfigs/TwoButtonsUsingTwoButtonConfigs.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/keywords.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/library.properties",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/src/AceButton.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/AceButton/src/ace_button/AceButton.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/src/ace_button/AceButton.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/AceButton/src/ace_button/ButtonConfig.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/src/ace_button/ButtonConfig.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/src/ace_button/Encoded4To2ButtonConfig.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/src/ace_button/Encoded8To3ButtonConfig.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/AceButton/src/ace_button/EncodedButtonConfig.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/src/ace_button/EncodedButtonConfig.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/src/ace_button/IEventHandler.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/AceButton/src/ace_button/LadderButtonConfig.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/src/ace_button/LadderButtonConfig.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/src/ace_button/fast/ButtonConfigFast1.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/src/ace_button/fast/ButtonConfigFast2.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/src/ace_button/fast/ButtonConfigFast3.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/AceButton/src/ace_button/testing/EventTracker.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/src/ace_button/testing/EventTracker.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/src/ace_button/testing/HelperForButtonConfig.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/src/ace_button/testing/HelperForEncodedButtonConfig.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/src/ace_button/testing/HelperForLadderButtonConfig.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/src/ace_button/testing/TestableButtonConfig.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/src/ace_button/testing/TestableEncodedButtonConfig.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/AceButton/src/ace_button/testing/TestableLadderButtonConfig.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Adafruit BusIO/.github/ISSUE_TEMPLATE.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Adafruit BusIO/.github/PULL_REQUEST_TEMPLATE.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Adafruit BusIO/.github/workflows/githubci.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Adafruit BusIO/.piopm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Adafruit BusIO/Adafruit_BusIO_Register.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Adafruit BusIO/Adafruit_BusIO_Register.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Adafruit BusIO/Adafruit_I2CDevice.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Adafruit BusIO/Adafruit_I2CDevice.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Adafruit BusIO/Adafruit_I2CRegister.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Adafruit BusIO/Adafruit_SPIDevice.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Adafruit BusIO/Adafruit_SPIDevice.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Adafruit BusIO/CMakeLists.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Adafruit BusIO/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Adafruit BusIO/component.mk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Adafruit BusIO/examples/i2c_address_detect/i2c_address_detect.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Adafruit BusIO/examples/i2c_readwrite/i2c_readwrite.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Adafruit BusIO/examples/i2c_registers/i2c_registers.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Adafruit BusIO/examples/i2corspi_register/i2corspi_register.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Adafruit BusIO/examples/spi_modetest/spi_modetest.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Adafruit BusIO/examples/spi_readwrite/spi_readwrite.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Adafruit BusIO/examples/spi_register_bits/spi_register_bits.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Adafruit BusIO/examples/spi_registers/spi_registers.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Adafruit BusIO/library.properties",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Adafruit VEML7700 Library/.github/ISSUE_TEMPLATE.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Adafruit VEML7700 Library/.github/PULL_REQUEST_TEMPLATE.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Adafruit VEML7700 Library/.github/workflows/githubci.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Adafruit VEML7700 Library/.gitignore",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Adafruit VEML7700 Library/.piopm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Adafruit VEML7700 Library/Adafruit_VEML7700.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Adafruit VEML7700 Library/Adafruit_VEML7700.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Adafruit VEML7700 Library/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Adafruit VEML7700 Library/examples/veml7700_test/veml7700_test.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Adafruit VEML7700 Library/library.properties",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Adafruit VEML7700 Library/license.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/.github/workflows/ccpp.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/.piopm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/B_G431B_ESC1/B_G431B_ESC1.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/B_G431B_ESC1/build_opt.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/Bluepill_examples/encoder/bluepill_position_control/bluepill_position_control.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/Bluepill_examples/magnetic_sensor/bluepill_position_control/bluepill_position_control.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/DRV8302_driver/3pwm_example/encoder/full_control_serial/full_control_serial.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/DRV8302_driver/6pwm_example/encoder/full_control_serial/full_control_serial.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/DRV8302_driver/esp32_current_control_low_side/esp32_current_control_low_side.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/ESP32/encoder/esp32_position_control/esp32_position_control.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/ESP32/magnetic_sensor/esp32_position_control/esp32_position_control.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/HMBGC_example/position_control/position_control.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/HMBGC_example/voltage_control/voltage_control.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/SAMD_examples/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/SAMD_examples/nano33IoT/nano33IoT_velocity_control/nano33IoT_velocity_control.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/SimpleFOC-PowerShield/version_v02/single_full_control_example/single_full_control_example.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/SimpleFOCShield/version_v1/double_full_control_example/double_full_control_example.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/SimpleFOCShield/version_v1/single_full_control_example/single_full_control_example.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/SimpleFOCShield/version_v2/double_full_control_example/double_full_control_example.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/SimpleFOCShield/version_v2/single_full_control_example/single_full_control_example.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/Smart_Stepper/smartstepper_control/smartstepper_control.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/motion_control/open_loop_motor_control/open_loop_position_example/open_loop_position_example.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/motion_control/open_loop_motor_control/open_loop_velocity_example/open_loop_velocity_example.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/motion_control/position_motion_control/encoder/angle_control/angle_control.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/motion_control/position_motion_control/hall_sensor/angle_control/angle_control.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/motion_control/position_motion_control/magnetic_sensor/angle_control/angle_control.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/motion_control/torque_control/encoder/current_control/current_control.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/motion_control/torque_control/encoder/voltage_control/voltage_control.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/motion_control/torque_control/hall_sensor/voltage_control/voltage_control.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/motion_control/torque_control/magnetic_sensor/voltage_control/voltage_control.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/motion_control/velocity_motion_control/encoder/velocity_control/velocity_control.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/motion_control/velocity_motion_control/hall_sensor/velocity_control.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/motion_control/velocity_motion_control/magnetic_sensor/velocity_control/velocity_control.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/motor_commands_serial_examples/encoder/full_control_serial/full_control_serial.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/motor_commands_serial_examples/hall_sensor/full_control_serial/full_control_serial.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/motor_commands_serial_examples/magnetic_sensor/full_control_serial/full_control_serial.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/osc_control_examples/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/osc_control_examples/osc_esp32_3pwm/layout1.touchosc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/osc_control_examples/osc_esp32_3pwm/osc_esp32_3pwm.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/osc_control_examples/osc_esp32_fullcontrol/osc_esp32_fullcontrol.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/osc_control_examples/osc_esp32_fullcontrol/osc_fullcontrol.pd",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/osc_control_examples/osc_esp32_fullcontrol/ssid.h_rename_me",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/utils/calibration/alignment_and_cogging_test/alignment_and_cogging_test.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/utils/calibration/find_pole_pair_number/encoder/find_pole_pairs_number/find_pole_pairs_number.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/utils/calibration/find_pole_pair_number/magnetic_sensor/find_pole_pairs_number/find_pole_pairs_number.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/utils/calibration/find_sensor_offset_and_direction/find_sensor_offset_and_direction.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/utils/communication_test/commander/commander_extend_example/commander_extend_example.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/utils/communication_test/commander/commander_no_serial/commander_no_serial.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/utils/communication_test/commander/commander_tune_custom_loop/commander_tune_custom_loop.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/utils/communication_test/step_dir/step_dir_listener_simple/step_dir_listener_simple.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/utils/communication_test/step_dir/step_dir_listener_software_interrupt/step_dir_listener_software_interrupt.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/utils/communication_test/step_dir/step_dir_motor_example/step_dir_motor_example.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/utils/current_sense_test/inline_current_sense_test/inline_current_sense_test.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/utils/driver_standalone_test/bldc_driver_3pwm_standalone/bldc_driver_3pwm_standalone.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/utils/driver_standalone_test/bldc_driver_6pwm_standalone/bldc_driver_6pwm_standalone.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/utils/driver_standalone_test/stepper_driver_2pwm_standalone/stepper_driver_2pwm_standalone.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/utils/driver_standalone_test/stepper_driver_4pwm_standalone/stepper_driver_4pwm_standalone.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/utils/sensor_test/encoder/encoder_example/encoder_example.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/utils/sensor_test/encoder/encoder_software_interrupts_example/encoder_software_interrupts_example.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/utils/sensor_test/hall_sensors/hall_sensor_example/hall_sensor_example.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/utils/sensor_test/hall_sensors/hall_sensor_software_interrupts_example/hall_sensors_software_interrupts_example.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/utils/sensor_test/magnetic_sensors/magnetic_sensor_analog/find_raw_min_max/find_raw_min_max.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/utils/sensor_test/magnetic_sensors/magnetic_sensor_analog/magnetic_sensor_analog_example/magnetic_sensor_analog_example.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/utils/sensor_test/magnetic_sensors/magnetic_sensor_i2c/magnetic_sensor_i2c_dual_bus_examples/esp32_i2c_dual_bus_example/esp32_i2c_dual_bus_example.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/utils/sensor_test/magnetic_sensors/magnetic_sensor_i2c/magnetic_sensor_i2c_dual_bus_examples/stm32_i2c_dual_bus_example/stm32_i2c_dual_bus_example.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/utils/sensor_test/magnetic_sensors/magnetic_sensor_i2c/magnetic_sensor_i2c_example/magnetic_sensor_i2c_example.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/utils/sensor_test/magnetic_sensors/magnetic_sensor_pwm/find_raw_min_max/find_raw_min_max.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/utils/sensor_test/magnetic_sensors/magnetic_sensor_pwm/magnetic_sensor_pwm_example/magnetic_sensor_pwm_example.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/utils/sensor_test/magnetic_sensors/magnetic_sensor_pwm/magnetic_sensor_pwm_software_interrupt/magnetic_sensor_pwm_software_interrupt.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/utils/sensor_test/magnetic_sensors/magnetic_sensor_spi/magnetic_sensor_spi_alternative_examples/esp32_spi_alt_example/esp32_spi_alt_example.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/utils/sensor_test/magnetic_sensors/magnetic_sensor_spi/magnetic_sensor_spi_alternative_examples/stm32_spi_alt_example/stm32_spi_alt_example.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/examples/utils/sensor_test/magnetic_sensors/magnetic_sensor_spi/magnetic_sensor_spi_example/magnetic_sensor_spi_example.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/keywords.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/library.properties",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/BLDCMotor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/BLDCMotor.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/SimpleFOC.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/StepperMotor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/StepperMotor.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/common/base_classes/BLDCDriver.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/common/base_classes/CurrentSense.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/common/base_classes/CurrentSense.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/common/base_classes/FOCMotor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/common/base_classes/FOCMotor.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/common/base_classes/Sensor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/common/base_classes/Sensor.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/common/base_classes/StepperDriver.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/common/defaults.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/common/foc_utils.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/common/foc_utils.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/common/lowpass_filter.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/common/lowpass_filter.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/common/pid.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/common/pid.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/common/time_utils.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/common/time_utils.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/communication/Commander.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/communication/Commander.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/communication/StepDirListener.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/communication/StepDirListener.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/communication/commands.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/current_sense/InlineCurrentSense.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/current_sense/InlineCurrentSense.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/current_sense/LowsideCurrentSense.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/current_sense/LowsideCurrentSense.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/current_sense/hardware_api.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/current_sense/hardware_specific/atmega_mcu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/current_sense/hardware_specific/due_mcu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/current_sense/hardware_specific/esp32_adc_driver.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/current_sense/hardware_specific/esp32_adc_driver.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/current_sense/hardware_specific/esp32_mcu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/current_sense/hardware_specific/generic_mcu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/current_sense/hardware_specific/samd21_mcu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/current_sense/hardware_specific/samd21_mcu.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/current_sense/hardware_specific/samd_mcu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/current_sense/hardware_specific/stm32_mcu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/current_sense/hardware_specific/stm32g4_hal.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/current_sense/hardware_specific/stm32g4_hal.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/current_sense/hardware_specific/stm32g4_mcu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/current_sense/hardware_specific/teensy_mcu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/drivers/BLDCDriver3PWM.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/drivers/BLDCDriver3PWM.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/drivers/BLDCDriver6PWM.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/drivers/BLDCDriver6PWM.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/drivers/StepperDriver2PWM.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/drivers/StepperDriver2PWM.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/drivers/StepperDriver4PWM.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/drivers/StepperDriver4PWM.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/drivers/hardware_api.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/drivers/hardware_specific/atmega2560_mcu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/drivers/hardware_specific/atmega328_mcu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/drivers/hardware_specific/atmega32u4_mcu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/drivers/hardware_specific/due_mcu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/drivers/hardware_specific/esp32_mcu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/drivers/hardware_specific/esp8266_mcu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/drivers/hardware_specific/generic_mcu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/drivers/hardware_specific/portenta_h7_mcu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/drivers/hardware_specific/rp2040_mcu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/drivers/hardware_specific/samd21_mcu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/drivers/hardware_specific/samd51_mcu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/drivers/hardware_specific/samd_mcu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/drivers/hardware_specific/samd_mcu.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/drivers/hardware_specific/stm32_mcu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/drivers/hardware_specific/teensy_mcu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/sensors/Encoder.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/sensors/Encoder.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/sensors/HallSensor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/sensors/HallSensor.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/sensors/MagneticSensorAnalog.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/sensors/MagneticSensorAnalog.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/sensors/MagneticSensorI2C.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/sensors/MagneticSensorI2C.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/sensors/MagneticSensorPWM.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/sensors/MagneticSensorPWM.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/Simple FOC/src/sensors/MagneticSensorSPI.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/Simple FOC/src/sensors/MagneticSensorSPI.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/.piopm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/.travis.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/LICENSE.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/examples/Cartesian/Cartesian.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/examples/CartesianFast/CartesianFast.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/examples/SphericalFast/SphericalFast.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/examples/spherical/spherical.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/keywords.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/library.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/library.properties",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/joystick/3d_Kugelstab.FCStd",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/joystick/3d_Kugelstab.iges",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/joystick/3d_Kugelstab.step",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/joystick/3d_KugelstabSTL.stl",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/joystick/Kugelhalter_3D_810_2.FCStd",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/joystick/Kugelhalter_3D_810_2.STL.stl",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/joystick/Kugelhalter_3D_810_2.iges",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/joystick/Kugelhalter_3D_810_2.step",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/linear_slider/3D_Linear_1_6.stl",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/linear_slider/3D_Linear_3_1.step",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/linear_slider/3D_Linear_4.step",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/linear_slider/3d_Linear_1_6.step",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/linear_slider/3d_Linear_2_9.step",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/linear_slider/3d_Linear_2_9.stl",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/linear_slider/3d_Linear_3_1.stl",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/linear_slider/3d_Linear_4.stl",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/rotate_knob/3D_Drehknopf.STL.stl",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/rotate_knob/3D_Drehknopf.step",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/rotate_knob/3D_Halter.STL.stl",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/rotate_knob/3D_Halter.step",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/processing/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/processing/joystick/joystick.pde",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/processing/knob/knob.pde",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/processing/slider/slider.pde",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/processing/spaceship/spaceship.pde",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/processing/standard/standard.pde",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/src/Tlv493d.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/src/Tlv493d.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/src/util/BusInterface.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/src/util/BusInterface.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/src/util/BusInterface2.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/src/util/RegMask.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/src/util/RegMask.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/TLV493D-Magnetic-Sensor/src/util/Tlv493d_conf.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/view/integrity.dat",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

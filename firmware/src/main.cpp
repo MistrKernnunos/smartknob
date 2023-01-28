@@ -10,7 +10,7 @@ static DisplayTask* display_task_p = &display_task;
 #else
 static DisplayTask* display_task_p = nullptr;
 #endif
-static MotorTask motor_task(1);
+static MotorTask motor_task(0);
 
 
 InterfaceTask interface_task(0, motor_task, display_task_p);

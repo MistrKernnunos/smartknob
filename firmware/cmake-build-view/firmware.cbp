@@ -1,0 +1,1721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="firmware"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/machavi/Swivel/smartknob/firmware/cmake-build-view"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/machavi/Swivel/smartknob/firmware/cmake-build-view/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/machavi/Swivel/smartknob/firmware/cmake-build-view/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/machavi/Swivel/smartknob/firmware/cmake-build-view/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/machavi/Swivel/smartknob/firmware/cmake-build-view/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Production">
+				<Option working_dir="/home/machavi/Swivel/smartknob/firmware/cmake-build-view"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/machavi/Swivel/smartknob/firmware/cmake-build-view/Makefile&quot;  VERBOSE=1 Production"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/machavi/Swivel/smartknob/firmware/cmake-build-view/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/machavi/Swivel/smartknob/firmware/cmake-build-view/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/machavi/Swivel/smartknob/firmware/cmake-build-view/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Debug">
+				<Option working_dir="/home/machavi/Swivel/smartknob/firmware/cmake-build-view"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/machavi/Swivel/smartknob/firmware/cmake-build-view/Makefile&quot;  VERBOSE=1 Debug"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/machavi/Swivel/smartknob/firmware/cmake-build-view/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/machavi/Swivel/smartknob/firmware/cmake-build-view/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/machavi/Swivel/smartknob/firmware/cmake-build-view/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET">
+				<Option output="/home/machavi/Swivel/smartknob/firmware/cmake-build-view/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/machavi/Swivel/smartknob/firmware/cmake-build-view"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPLATFORMIO=60103"/>
+					<Add option="-DBOARD_HAS_PSRAM"/>
+					<Add option="-DCORE_DEBUG_LEVEL=ARDUHAL_LOG_LEVEL_DEBUG"/>
+					<Add option="-DSK_DISPLAY=0"/>
+					<Add option="-DSK_LEDS=0"/>
+					<Add option="-DNUM_LEDS=8"/>
+					<Add option="-DSENSOR_MT6701=1"/>
+					<Add option="-DSK_STRAIN=0"/>
+					<Add option="-DSK_INVERT_ROTATION=1"/>
+					<Add option="-DSK_ALS=0"/>
+					<Add option="-DPIN_UH=26"/>
+					<Add option="-DPIN_UL=25"/>
+					<Add option="-DPIN_VH=27"/>
+					<Add option="-DPIN_VL=32"/>
+					<Add option="-DPIN_WH=12"/>
+					<Add option="-DPIN_WL=33"/>
+					<Add option="-DPIN_BUTTON_NEXT=-1"/>
+					<Add option="-DPIN_BUTTON_PREV=-1"/>
+					<Add option="-DPIN_SDA=15"/>
+					<Add option="-DPIN_SCL=8"/>
+					<Add option="-DPIN_MT_DATA=37"/>
+					<Add option="-DPIN_MT_CLOCK=13"/>
+					<Add option="-DPIN_MT_CSN=14"/>
+					<Add option="-DPIN_LED_DATA=7"/>
+					<Add option="-DPIN_LCD_BACKLIGHT=19"/>
+					<Add option="-DDESCRIPTION_FONT=Roboto_Thin_24"/>
+					<Add option="-DDESCRIPTION_Y_OFFSET=20"/>
+					<Add option="-DVALUE_OFFSET=30"/>
+					<Add option="-DDRAW_ARC=0"/>
+					<Add option="-DUSER_SETUP_LOADED=1"/>
+					<Add option="-DGC9A01_DRIVER=1"/>
+					<Add option="-DCGRAM_OFFSET=1"/>
+					<Add option="-DTFT_WIDTH=240"/>
+					<Add option="-DTFT_HEIGHT=240"/>
+					<Add option="-DTFT_MISO=-1"/>
+					<Add option="-DTFT_MOSI=5"/>
+					<Add option="-DTFT_SCLK=20"/>
+					<Add option="-DTFT_CS=21"/>
+					<Add option="-DTFT_DC=22"/>
+					<Add option="-DTFT_RST=4"/>
+					<Add option="-DTFT_BL=-1"/>
+					<Add option="-DLOAD_GLCD=1"/>
+					<Add option="-DLOAD_GFXFF=1"/>
+					<Add option="-DSPI_FREQUENCY=40000000"/>
+					<Add option="-DFASTLED_UNUSABLE_PIN_MASK=0x100740LL"/>
+					<Add option="-DSOC_GPIO_VALID_GPIO_MASK=0xFF0EFFFFFF"/>
+					<Add option="-DSOC_GPIO_VALID_OUTPUT_GPIO_MASK=0x30EFFFFFF"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DMBEDTLS_CONFIG_FILE=&quot;mbedtls/esp_config.h&quot;"/>
+					<Add option="-DUNITY_INCLUDE_CONFIG_H"/>
+					<Add option="-DWITH_POSIX"/>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DIDF_VER=&quot;v.4.4.0&quot;"/>
+					<Add option="-DESP_PLATFORM"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_POSIX_READER_WRITER_LOCKS"/>
+					<Add option="-DARDUINO_ARCH_ESP32"/>
+					<Add option="-DESP32"/>
+					<Add option="-DF_CPU=240000000L"/>
+					<Add option="-DARDUINO=10812"/>
+					<Add option="-DARDUINO_VARIANT=&quot;esp32s3&quot;"/>
+					<Add option="-DARDUINO_BOARD=&quot;Espressif ESP32-S3-DevKitC-1&quot;"/>
+					<Add option="-DARDUINO_PARTITION_default"/>
+					<Add directory="/home/machavi/Swivel/smartknob/firmware/include"/>
+					<Add directory="/home/machavi/Swivel/smartknob/firmware/src"/>
+					<Add directory="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit VEML7700 Library"/>
+					<Add directory="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/src"/>
+					<Add directory="/home/machavi/Swivel/smartknob/firmware/lib/tlv/src"/>
+					<Add directory="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/config"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/newlib/platform_include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/freertos/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/freertos/include/esp_additions/freertos"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/freertos/port/xtensa/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/freertos/include/esp_additions"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_hw_support/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_hw_support/include/soc"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_hw_support/include/soc/esp32s3"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_hw_support/port/esp32s3"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_hw_support/port/esp32s3/private_include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/heap/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/log/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/lwip/include/apps"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/lwip/include/apps/sntp"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/lwip/lwip/src/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/lwip/port/esp32/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/lwip/port/esp32/include/arch"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/soc/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/soc/esp32s3"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/soc/esp32s3/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/hal/esp32s3/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/hal/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/hal/platform_port/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_rom/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_rom/include/esp32s3"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_rom/esp32s3"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_common/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_system/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_system/port/soc"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_system/port/public_compat"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/xtensa/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/xtensa/esp32s3/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/driver/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/driver/esp32s3/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_pm/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_ringbuf/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/efuse/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/efuse/esp32s3/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/vfs/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_wifi/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_event/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_netif/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_eth/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/tcpip_adapter/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_phy/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_phy/esp32s3/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_ipc/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/app_trace/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_timer/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/mbedtls/port/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/mbedtls/mbedtls/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/mbedtls/esp_crt_bundle/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/app_update/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/spi_flash/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/bootloader_support/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/nvs_flash/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/pthread/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_gdbstub/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_gdbstub/xtensa"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_gdbstub/esp32s3"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/espcoredump/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/espcoredump/include/port/xtensa"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/wpa_supplicant/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/wpa_supplicant/port/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/wpa_supplicant/esp_supplicant/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/ieee802154/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/console"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/asio/asio/asio/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/asio/port/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/bt/common/osi/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/bt/include/esp32s3/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/bt/common/api/include/api"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/bt/common/btc/profile/esp/blufi/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/bt/common/btc/profile/esp/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/bt/host/bluedroid/api/include/api"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/cbor/port/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/unity/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/unity/unity/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/cmock/CMock/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/coap/port/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/coap/libcoap/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/nghttp/port/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/nghttp/nghttp2/lib/includes"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-tls"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-tls/esp-tls-crypto"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_adc_cal/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_hid/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/tcp_transport/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_http_client/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_http_server/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_https_ota/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_https_server/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_lcd/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_lcd/interface"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/protobuf-c/protobuf-c"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/protocomm/include/common"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/protocomm/include/security"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/protocomm/include/transports"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/mdns/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_local_ctrl/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/sdmmc/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_serial_slave_link/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_websocket_client/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/expat/expat/expat/lib"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/expat/port/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/wear_levelling/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/fatfs/diskio"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/fatfs/vfs"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/fatfs/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/freemodbus/common/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/idf_test/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/idf_test/include/esp32s3"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/jsmn/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/json/cJSON"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/libsodium/libsodium/src/libsodium/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/libsodium/port_include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/mqtt/esp-mqtt/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/openssl/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/perfmon/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/spiffs/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/usb/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/ulp/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/wifi_provisioning/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/dotprod/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/support/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/windows/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/windows/hann/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/windows/blackman/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/windows/blackman_harris/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/windows/blackman_nuttall/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/windows/nuttall/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/windows/flat_top/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/iir/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/fir/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/math/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/math/add/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/math/sub/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/math/mul/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/math/addc/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/math/mulc/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/math/sqrt/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/matrix/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/fft/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/dct/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/conv/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/common/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/kalman/ekf/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/kalman/ekf_imu13states/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/freertos/include/freertos"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/arduino_tinyusb/tinyusb/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/arduino_tinyusb/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_littlefs/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_littlefs/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp32-camera/driver/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp32-camera/conversions/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/fb_gfx/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/qspi_qspi/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/cores/esp32"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/variants/esp32s3"/>
+					<Add directory="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit BusIO"/>
+					<Add directory="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/AsyncUDP/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/BLE/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/BluetoothSerial/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/DNSServer/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/EEPROM/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/ESP32/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/ESPmDNS/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/Ethernet/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/FFat/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/FS/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdate/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdateServer/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/I2S/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/LittleFS/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/NetBIOS/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/Preferences/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/SD/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/USB/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/Update/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src"/>
+					<Add directory="/home/machavi/.platformio/packages/toolchain-riscv32-esp/riscv32-esp-elf/include/c++/8.4.0"/>
+					<Add directory="/home/machavi/.platformio/packages/toolchain-riscv32-esp/riscv32-esp-elf/include/c++/8.4.0/riscv32-esp-elf"/>
+					<Add directory="/home/machavi/.platformio/packages/toolchain-riscv32-esp/lib/gcc/riscv32-esp-elf/8.4.0/include"/>
+					<Add directory="/home/machavi/.platformio/packages/toolchain-riscv32-esp/lib/gcc/riscv32-esp-elf/8.4.0/include-fixed"/>
+					<Add directory="/home/machavi/.platformio/packages/toolchain-riscv32-esp/riscv32-esp-elf/include"/>
+					<Add directory="/home/machavi/.platformio/packages/toolchain-xtensa-esp32s3/xtensa-esp32s3-elf/include/c++/8.4.0"/>
+					<Add directory="/home/machavi/.platformio/packages/toolchain-xtensa-esp32s3/xtensa-esp32s3-elf/include/c++/8.4.0/xtensa-esp32s3-elf"/>
+					<Add directory="/home/machavi/.platformio/packages/toolchain-xtensa-esp32s3/lib/gcc/xtensa-esp32s3-elf/8.4.0/include"/>
+					<Add directory="/home/machavi/.platformio/packages/toolchain-xtensa-esp32s3/lib/gcc/xtensa-esp32s3-elf/8.4.0/include-fixed"/>
+					<Add directory="/home/machavi/.platformio/packages/toolchain-xtensa-esp32s3/xtensa-esp32s3-elf/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/machavi/Swivel/smartknob/firmware/cmake-build-view/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/machavi/Swivel/smartknob/firmware/cmake-build-view/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/machavi/Swivel/smartknob/firmware/cmake-build-view/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/machavi/Swivel/smartknob/firmware/cmake-build-view/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET/fast">
+				<Option output="/home/machavi/Swivel/smartknob/firmware/cmake-build-view/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/machavi/Swivel/smartknob/firmware/cmake-build-view"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPLATFORMIO=60103"/>
+					<Add option="-DBOARD_HAS_PSRAM"/>
+					<Add option="-DCORE_DEBUG_LEVEL=ARDUHAL_LOG_LEVEL_DEBUG"/>
+					<Add option="-DSK_DISPLAY=0"/>
+					<Add option="-DSK_LEDS=0"/>
+					<Add option="-DNUM_LEDS=8"/>
+					<Add option="-DSENSOR_MT6701=1"/>
+					<Add option="-DSK_STRAIN=0"/>
+					<Add option="-DSK_INVERT_ROTATION=1"/>
+					<Add option="-DSK_ALS=0"/>
+					<Add option="-DPIN_UH=26"/>
+					<Add option="-DPIN_UL=25"/>
+					<Add option="-DPIN_VH=27"/>
+					<Add option="-DPIN_VL=32"/>
+					<Add option="-DPIN_WH=12"/>
+					<Add option="-DPIN_WL=33"/>
+					<Add option="-DPIN_BUTTON_NEXT=-1"/>
+					<Add option="-DPIN_BUTTON_PREV=-1"/>
+					<Add option="-DPIN_SDA=15"/>
+					<Add option="-DPIN_SCL=8"/>
+					<Add option="-DPIN_MT_DATA=37"/>
+					<Add option="-DPIN_MT_CLOCK=13"/>
+					<Add option="-DPIN_MT_CSN=14"/>
+					<Add option="-DPIN_LED_DATA=7"/>
+					<Add option="-DPIN_LCD_BACKLIGHT=19"/>
+					<Add option="-DDESCRIPTION_FONT=Roboto_Thin_24"/>
+					<Add option="-DDESCRIPTION_Y_OFFSET=20"/>
+					<Add option="-DVALUE_OFFSET=30"/>
+					<Add option="-DDRAW_ARC=0"/>
+					<Add option="-DUSER_SETUP_LOADED=1"/>
+					<Add option="-DGC9A01_DRIVER=1"/>
+					<Add option="-DCGRAM_OFFSET=1"/>
+					<Add option="-DTFT_WIDTH=240"/>
+					<Add option="-DTFT_HEIGHT=240"/>
+					<Add option="-DTFT_MISO=-1"/>
+					<Add option="-DTFT_MOSI=5"/>
+					<Add option="-DTFT_SCLK=20"/>
+					<Add option="-DTFT_CS=21"/>
+					<Add option="-DTFT_DC=22"/>
+					<Add option="-DTFT_RST=4"/>
+					<Add option="-DTFT_BL=-1"/>
+					<Add option="-DLOAD_GLCD=1"/>
+					<Add option="-DLOAD_GFXFF=1"/>
+					<Add option="-DSPI_FREQUENCY=40000000"/>
+					<Add option="-DFASTLED_UNUSABLE_PIN_MASK=0x100740LL"/>
+					<Add option="-DSOC_GPIO_VALID_GPIO_MASK=0xFF0EFFFFFF"/>
+					<Add option="-DSOC_GPIO_VALID_OUTPUT_GPIO_MASK=0x30EFFFFFF"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DMBEDTLS_CONFIG_FILE=&quot;mbedtls/esp_config.h&quot;"/>
+					<Add option="-DUNITY_INCLUDE_CONFIG_H"/>
+					<Add option="-DWITH_POSIX"/>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DIDF_VER=&quot;v.4.4.0&quot;"/>
+					<Add option="-DESP_PLATFORM"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-D_POSIX_READER_WRITER_LOCKS"/>
+					<Add option="-DARDUINO_ARCH_ESP32"/>
+					<Add option="-DESP32"/>
+					<Add option="-DF_CPU=240000000L"/>
+					<Add option="-DARDUINO=10812"/>
+					<Add option="-DARDUINO_VARIANT=&quot;esp32s3&quot;"/>
+					<Add option="-DARDUINO_BOARD=&quot;Espressif ESP32-S3-DevKitC-1&quot;"/>
+					<Add option="-DARDUINO_PARTITION_default"/>
+					<Add directory="/home/machavi/Swivel/smartknob/firmware/include"/>
+					<Add directory="/home/machavi/Swivel/smartknob/firmware/src"/>
+					<Add directory="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit VEML7700 Library"/>
+					<Add directory="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/src"/>
+					<Add directory="/home/machavi/Swivel/smartknob/firmware/lib/tlv/src"/>
+					<Add directory="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/config"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/newlib/platform_include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/freertos/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/freertos/include/esp_additions/freertos"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/freertos/port/xtensa/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/freertos/include/esp_additions"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_hw_support/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_hw_support/include/soc"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_hw_support/include/soc/esp32s3"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_hw_support/port/esp32s3"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_hw_support/port/esp32s3/private_include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/heap/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/log/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/lwip/include/apps"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/lwip/include/apps/sntp"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/lwip/lwip/src/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/lwip/port/esp32/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/lwip/port/esp32/include/arch"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/soc/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/soc/esp32s3"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/soc/esp32s3/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/hal/esp32s3/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/hal/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/hal/platform_port/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_rom/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_rom/include/esp32s3"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_rom/esp32s3"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_common/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_system/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_system/port/soc"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_system/port/public_compat"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/xtensa/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/xtensa/esp32s3/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/driver/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/driver/esp32s3/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_pm/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_ringbuf/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/efuse/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/efuse/esp32s3/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/vfs/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_wifi/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_event/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_netif/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_eth/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/tcpip_adapter/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_phy/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_phy/esp32s3/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_ipc/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/app_trace/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_timer/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/mbedtls/port/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/mbedtls/mbedtls/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/mbedtls/esp_crt_bundle/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/app_update/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/spi_flash/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/bootloader_support/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/nvs_flash/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/pthread/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_gdbstub/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_gdbstub/xtensa"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_gdbstub/esp32s3"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/espcoredump/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/espcoredump/include/port/xtensa"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/wpa_supplicant/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/wpa_supplicant/port/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/wpa_supplicant/esp_supplicant/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/ieee802154/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/console"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/asio/asio/asio/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/asio/port/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/bt/common/osi/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/bt/include/esp32s3/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/bt/common/api/include/api"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/bt/common/btc/profile/esp/blufi/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/bt/common/btc/profile/esp/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/bt/host/bluedroid/api/include/api"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/cbor/port/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/unity/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/unity/unity/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/cmock/CMock/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/coap/port/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/coap/libcoap/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/nghttp/port/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/nghttp/nghttp2/lib/includes"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-tls"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-tls/esp-tls-crypto"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_adc_cal/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_hid/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/tcp_transport/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_http_client/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_http_server/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_https_ota/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_https_server/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_lcd/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_lcd/interface"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/protobuf-c/protobuf-c"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/protocomm/include/common"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/protocomm/include/security"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/protocomm/include/transports"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/mdns/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_local_ctrl/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/sdmmc/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_serial_slave_link/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_websocket_client/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/expat/expat/expat/lib"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/expat/port/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/wear_levelling/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/fatfs/diskio"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/fatfs/vfs"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/fatfs/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/freemodbus/common/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/idf_test/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/idf_test/include/esp32s3"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/jsmn/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/json/cJSON"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/libsodium/libsodium/src/libsodium/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/libsodium/port_include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/mqtt/esp-mqtt/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/openssl/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/perfmon/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/spiffs/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/usb/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/ulp/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/wifi_provisioning/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/dotprod/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/support/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/windows/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/windows/hann/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/windows/blackman/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/windows/blackman_harris/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/windows/blackman_nuttall/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/windows/nuttall/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/windows/flat_top/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/iir/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/fir/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/math/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/math/add/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/math/sub/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/math/mul/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/math/addc/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/math/mulc/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/math/sqrt/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/matrix/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/fft/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/dct/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/conv/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/common/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/kalman/ekf/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp-dsp/modules/kalman/ekf_imu13states/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/freertos/include/freertos"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/arduino_tinyusb/tinyusb/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/arduino_tinyusb/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_littlefs/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_littlefs/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp32-camera/driver/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp32-camera/conversions/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/fb_gfx/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/qspi_qspi/include"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/cores/esp32"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/variants/esp32s3"/>
+					<Add directory="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit BusIO"/>
+					<Add directory="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/AsyncUDP/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/BLE/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/BluetoothSerial/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/DNSServer/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/EEPROM/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/ESP32/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/ESPmDNS/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/Ethernet/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/FFat/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/FS/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdate/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdateServer/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/I2S/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/LittleFS/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/NetBIOS/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/Preferences/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/SD/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/USB/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/Update/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src"/>
+					<Add directory="/home/machavi/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src"/>
+					<Add directory="/home/machavi/.platformio/packages/toolchain-riscv32-esp/riscv32-esp-elf/include/c++/8.4.0"/>
+					<Add directory="/home/machavi/.platformio/packages/toolchain-riscv32-esp/riscv32-esp-elf/include/c++/8.4.0/riscv32-esp-elf"/>
+					<Add directory="/home/machavi/.platformio/packages/toolchain-riscv32-esp/lib/gcc/riscv32-esp-elf/8.4.0/include"/>
+					<Add directory="/home/machavi/.platformio/packages/toolchain-riscv32-esp/lib/gcc/riscv32-esp-elf/8.4.0/include-fixed"/>
+					<Add directory="/home/machavi/.platformio/packages/toolchain-riscv32-esp/riscv32-esp-elf/include"/>
+					<Add directory="/home/machavi/.platformio/packages/toolchain-xtensa-esp32s3/xtensa-esp32s3-elf/include/c++/8.4.0"/>
+					<Add directory="/home/machavi/.platformio/packages/toolchain-xtensa-esp32s3/xtensa-esp32s3-elf/include/c++/8.4.0/xtensa-esp32s3-elf"/>
+					<Add directory="/home/machavi/.platformio/packages/toolchain-xtensa-esp32s3/lib/gcc/xtensa-esp32s3-elf/8.4.0/include"/>
+					<Add directory="/home/machavi/.platformio/packages/toolchain-xtensa-esp32s3/lib/gcc/xtensa-esp32s3-elf/8.4.0/include-fixed"/>
+					<Add directory="/home/machavi/.platformio/packages/toolchain-xtensa-esp32s3/xtensa-esp32s3-elf/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/machavi/Swivel/smartknob/firmware/cmake-build-view/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/machavi/Swivel/smartknob/firmware/cmake-build-view/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/machavi/Swivel/smartknob/firmware/cmake-build-view/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/machavi/Swivel/smartknob/firmware/cmake-build-view/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/machavi/Swivel/smartknob/firmware/cmake-build-view"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/machavi/Swivel/smartknob/firmware/cmake-build-view/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/machavi/Swivel/smartknob/firmware/cmake-build-view/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/machavi/Swivel/smartknob/firmware/cmake-build-view/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/machavi/Swivel/smartknob/firmware/cmake-build-view/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/machavi/Swivel/smartknob/firmware/cmake-build-view"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/machavi/Swivel/smartknob/firmware/cmake-build-view/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/machavi/Swivel/smartknob/firmware/cmake-build-view/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/machavi/Swivel/smartknob/firmware/cmake-build-view/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/machavi/Swivel/smartknob/firmware/cmake-build-view/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/.github/workflows/aunit_tests.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/CHANGELOG.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/CONTRIBUTING.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/ArrayButtons/ArrayButtons.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/AutoBenchmark/AutoBenchmark.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/AutoBenchmark/ProfilingButtonConfig.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/AutoBenchmark/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/AutoBenchmark/esp32.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/AutoBenchmark/esp8266.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/AutoBenchmark/generate_readme.py">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/AutoBenchmark/generate_table.awk">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/AutoBenchmark/micro.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/AutoBenchmark/nano.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/AutoBenchmark/samd.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/AutoBenchmark/stm32.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/AutoBenchmark/teensy32.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/CapacitiveButton/CapacitiveButton.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/ClickVersusDoubleClickUsingBoth/ClickVersusDoubleClickUsingBoth.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/ClickVersusDoubleClickUsingReleased/ClickVersusDoubleClickUsingReleased.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/ClickVersusDoubleClickUsingSuppression/ClickVersusDoubleClickUsingSuppression.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/Encoded16To4Buttons/Encoded16To4Buttons.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/Encoded16To4Buttons/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/Encoded16To4Buttons/breadboard_16to4_74ls148_small.jpg">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/Encoded4To2Buttons/Encoded4To2Buttons.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/Encoded4To2Buttons/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/Encoded4To2Buttons/breadboard_8to3_diodes_small.jpg">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/Encoded8To3Buttons/Encoded8To3Buttons.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/Encoded8To3Buttons/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/Encoded8To3Buttons/breadboard_8to3_74ls148_small.jpg">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/Encoded8To3Buttons/breadboard_8to3_diodes_small.jpg">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/HelloButton/HelloButton.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/LadderButtonCalibrator/LadderButtonCalibrator.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/LadderButtons/LadderButtons.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/LadderButtons/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/LadderButtons/breadboard_resistor_ladder.jpg">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/LadderButtonsTiny/LadderButtonsTiny.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/MemoryBenchmark/MemoryBenchmark.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/MemoryBenchmark/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/MemoryBenchmark/attiny.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/MemoryBenchmark/collect.sh">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/MemoryBenchmark/esp32.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/MemoryBenchmark/esp8266.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/MemoryBenchmark/generate_readme.py">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/MemoryBenchmark/generate_table.awk">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/MemoryBenchmark/micro.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/MemoryBenchmark/nano.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/MemoryBenchmark/samd.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/MemoryBenchmark/stm32.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/MemoryBenchmark/teensy32.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/PressVersusLongPress/PressVersusLongPress.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/SimultaneousButtons/SimultaneousButtons.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/SingleButton/SingleButton.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/SingleButtonFast/SingleButtonFast.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/SingleButtonPullDown/SingleButtonPullDown.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/SingleButtonUsingIEventHandler/SingleButtonUsingIEventHandler.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/Stopwatch/Stopwatch.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/ThreeButtonsUsingOneButtonConfig/ThreeButtonsUsingOneButtonConfig.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/ThreeButtonsUsingOneButtonConfigFast/ThreeButtonsUsingOneButtonConfigFast.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/TunerButtons/TunerButtons.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/TwoButtonsUsingOneButtonConfig/TwoButtonsUsingOneButtonConfig.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/TwoButtonsUsingOneButtonConfigFast/TwoButtonsUsingOneButtonConfigFast.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/examples/TwoButtonsUsingTwoButtonConfigs/TwoButtonsUsingTwoButtonConfigs.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/src/AceButton.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/src/ace_button/AceButton.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/src/ace_button/AceButton.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/src/ace_button/ButtonConfig.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/src/ace_button/ButtonConfig.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/src/ace_button/Encoded4To2ButtonConfig.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/src/ace_button/Encoded8To3ButtonConfig.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/src/ace_button/EncodedButtonConfig.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/src/ace_button/EncodedButtonConfig.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/src/ace_button/IEventHandler.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/src/ace_button/LadderButtonConfig.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/src/ace_button/LadderButtonConfig.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/src/ace_button/fast/ButtonConfigFast1.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/src/ace_button/fast/ButtonConfigFast2.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/src/ace_button/fast/ButtonConfigFast3.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/src/ace_button/testing/EventTracker.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/src/ace_button/testing/EventTracker.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/src/ace_button/testing/HelperForButtonConfig.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/src/ace_button/testing/HelperForEncodedButtonConfig.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/src/ace_button/testing/HelperForLadderButtonConfig.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/src/ace_button/testing/TestableButtonConfig.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/src/ace_button/testing/TestableEncodedButtonConfig.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/AceButton/src/ace_button/testing/TestableLadderButtonConfig.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit BusIO/.github/ISSUE_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit BusIO/.github/PULL_REQUEST_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit BusIO/.github/workflows/githubci.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit BusIO/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit BusIO/Adafruit_BusIO_Register.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit BusIO/Adafruit_BusIO_Register.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit BusIO/Adafruit_I2CDevice.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit BusIO/Adafruit_I2CDevice.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit BusIO/Adafruit_I2CRegister.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit BusIO/Adafruit_SPIDevice.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit BusIO/Adafruit_SPIDevice.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit BusIO/CMakeLists.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit BusIO/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit BusIO/component.mk">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit BusIO/examples/i2c_address_detect/i2c_address_detect.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit BusIO/examples/i2c_readwrite/i2c_readwrite.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit BusIO/examples/i2c_registers/i2c_registers.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit BusIO/examples/i2corspi_register/i2corspi_register.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit BusIO/examples/spi_modetest/spi_modetest.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit BusIO/examples/spi_readwrite/spi_readwrite.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit BusIO/examples/spi_register_bits/spi_register_bits.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit BusIO/examples/spi_registers/spi_registers.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit BusIO/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit VEML7700 Library/.github/ISSUE_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit VEML7700 Library/.github/PULL_REQUEST_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit VEML7700 Library/.github/workflows/githubci.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit VEML7700 Library/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit VEML7700 Library/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit VEML7700 Library/Adafruit_VEML7700.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit VEML7700 Library/Adafruit_VEML7700.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit VEML7700 Library/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit VEML7700 Library/examples/veml7700_test/veml7700_test.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit VEML7700 Library/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Adafruit VEML7700 Library/license.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/.github/workflows/ccpp.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/B_G431B_ESC1/B_G431B_ESC1.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/B_G431B_ESC1/build_opt.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/Bluepill_examples/encoder/bluepill_position_control/bluepill_position_control.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/Bluepill_examples/magnetic_sensor/bluepill_position_control/bluepill_position_control.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/DRV8302_driver/3pwm_example/encoder/full_control_serial/full_control_serial.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/DRV8302_driver/6pwm_example/encoder/full_control_serial/full_control_serial.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/DRV8302_driver/esp32_current_control_low_side/esp32_current_control_low_side.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/ESP32/encoder/esp32_position_control/esp32_position_control.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/ESP32/magnetic_sensor/esp32_position_control/esp32_position_control.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/HMBGC_example/position_control/position_control.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/HMBGC_example/voltage_control/voltage_control.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/SAMD_examples/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/SAMD_examples/nano33IoT/nano33IoT_velocity_control/nano33IoT_velocity_control.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/SimpleFOC-PowerShield/version_v02/single_full_control_example/single_full_control_example.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/SimpleFOCShield/version_v1/double_full_control_example/double_full_control_example.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/SimpleFOCShield/version_v1/single_full_control_example/single_full_control_example.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/SimpleFOCShield/version_v2/double_full_control_example/double_full_control_example.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/SimpleFOCShield/version_v2/single_full_control_example/single_full_control_example.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/hardware_specific_examples/Smart_Stepper/smartstepper_control/smartstepper_control.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/motion_control/open_loop_motor_control/open_loop_position_example/open_loop_position_example.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/motion_control/open_loop_motor_control/open_loop_velocity_example/open_loop_velocity_example.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/motion_control/position_motion_control/encoder/angle_control/angle_control.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/motion_control/position_motion_control/hall_sensor/angle_control/angle_control.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/motion_control/position_motion_control/magnetic_sensor/angle_control/angle_control.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/motion_control/torque_control/encoder/current_control/current_control.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/motion_control/torque_control/encoder/voltage_control/voltage_control.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/motion_control/torque_control/hall_sensor/voltage_control/voltage_control.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/motion_control/torque_control/magnetic_sensor/voltage_control/voltage_control.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/motion_control/velocity_motion_control/encoder/velocity_control/velocity_control.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/motion_control/velocity_motion_control/hall_sensor/velocity_control.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/motion_control/velocity_motion_control/magnetic_sensor/velocity_control/velocity_control.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/motor_commands_serial_examples/encoder/full_control_serial/full_control_serial.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/motor_commands_serial_examples/hall_sensor/full_control_serial/full_control_serial.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/motor_commands_serial_examples/magnetic_sensor/full_control_serial/full_control_serial.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/osc_control_examples/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/osc_control_examples/osc_esp32_3pwm/layout1.touchosc">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/osc_control_examples/osc_esp32_3pwm/osc_esp32_3pwm.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/osc_control_examples/osc_esp32_fullcontrol/osc_esp32_fullcontrol.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/osc_control_examples/osc_esp32_fullcontrol/osc_fullcontrol.pd">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/osc_control_examples/osc_esp32_fullcontrol/ssid.h_rename_me">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/utils/calibration/alignment_and_cogging_test/alignment_and_cogging_test.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/utils/calibration/find_pole_pair_number/encoder/find_pole_pairs_number/find_pole_pairs_number.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/utils/calibration/find_pole_pair_number/magnetic_sensor/find_pole_pairs_number/find_pole_pairs_number.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/utils/calibration/find_sensor_offset_and_direction/find_sensor_offset_and_direction.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/utils/communication_test/commander/commander_extend_example/commander_extend_example.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/utils/communication_test/commander/commander_no_serial/commander_no_serial.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/utils/communication_test/commander/commander_tune_custom_loop/commander_tune_custom_loop.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/utils/communication_test/step_dir/step_dir_listener_simple/step_dir_listener_simple.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/utils/communication_test/step_dir/step_dir_listener_software_interrupt/step_dir_listener_software_interrupt.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/utils/communication_test/step_dir/step_dir_motor_example/step_dir_motor_example.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/utils/current_sense_test/inline_current_sense_test/inline_current_sense_test.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/utils/driver_standalone_test/bldc_driver_3pwm_standalone/bldc_driver_3pwm_standalone.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/utils/driver_standalone_test/bldc_driver_6pwm_standalone/bldc_driver_6pwm_standalone.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/utils/driver_standalone_test/stepper_driver_2pwm_standalone/stepper_driver_2pwm_standalone.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/utils/driver_standalone_test/stepper_driver_4pwm_standalone/stepper_driver_4pwm_standalone.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/utils/sensor_test/encoder/encoder_example/encoder_example.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/utils/sensor_test/encoder/encoder_software_interrupts_example/encoder_software_interrupts_example.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/utils/sensor_test/hall_sensors/hall_sensor_example/hall_sensor_example.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/utils/sensor_test/hall_sensors/hall_sensor_software_interrupts_example/hall_sensors_software_interrupts_example.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/utils/sensor_test/magnetic_sensors/magnetic_sensor_analog/find_raw_min_max/find_raw_min_max.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/utils/sensor_test/magnetic_sensors/magnetic_sensor_analog/magnetic_sensor_analog_example/magnetic_sensor_analog_example.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/utils/sensor_test/magnetic_sensors/magnetic_sensor_i2c/magnetic_sensor_i2c_dual_bus_examples/esp32_i2c_dual_bus_example/esp32_i2c_dual_bus_example.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/utils/sensor_test/magnetic_sensors/magnetic_sensor_i2c/magnetic_sensor_i2c_dual_bus_examples/stm32_i2c_dual_bus_example/stm32_i2c_dual_bus_example.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/utils/sensor_test/magnetic_sensors/magnetic_sensor_i2c/magnetic_sensor_i2c_example/magnetic_sensor_i2c_example.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/utils/sensor_test/magnetic_sensors/magnetic_sensor_pwm/find_raw_min_max/find_raw_min_max.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/utils/sensor_test/magnetic_sensors/magnetic_sensor_pwm/magnetic_sensor_pwm_example/magnetic_sensor_pwm_example.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/utils/sensor_test/magnetic_sensors/magnetic_sensor_pwm/magnetic_sensor_pwm_software_interrupt/magnetic_sensor_pwm_software_interrupt.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/utils/sensor_test/magnetic_sensors/magnetic_sensor_spi/magnetic_sensor_spi_alternative_examples/esp32_spi_alt_example/esp32_spi_alt_example.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/utils/sensor_test/magnetic_sensors/magnetic_sensor_spi/magnetic_sensor_spi_alternative_examples/stm32_spi_alt_example/stm32_spi_alt_example.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/examples/utils/sensor_test/magnetic_sensors/magnetic_sensor_spi/magnetic_sensor_spi_example/magnetic_sensor_spi_example.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/BLDCMotor.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/BLDCMotor.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/SimpleFOC.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/StepperMotor.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/StepperMotor.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/common/base_classes/BLDCDriver.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/common/base_classes/CurrentSense.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/common/base_classes/CurrentSense.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/common/base_classes/FOCMotor.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/common/base_classes/FOCMotor.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/common/base_classes/Sensor.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/common/base_classes/Sensor.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/common/base_classes/StepperDriver.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/common/defaults.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/common/foc_utils.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/common/foc_utils.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/common/lowpass_filter.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/common/lowpass_filter.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/common/pid.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/common/pid.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/common/time_utils.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/common/time_utils.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/communication/Commander.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/communication/Commander.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/communication/StepDirListener.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/communication/StepDirListener.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/communication/commands.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/current_sense/InlineCurrentSense.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/current_sense/InlineCurrentSense.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/current_sense/LowsideCurrentSense.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/current_sense/LowsideCurrentSense.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/current_sense/hardware_api.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/current_sense/hardware_specific/atmega_mcu.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/current_sense/hardware_specific/due_mcu.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/current_sense/hardware_specific/esp32_adc_driver.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/current_sense/hardware_specific/esp32_adc_driver.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/current_sense/hardware_specific/esp32_mcu.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/current_sense/hardware_specific/generic_mcu.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/current_sense/hardware_specific/samd21_mcu.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/current_sense/hardware_specific/samd21_mcu.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/current_sense/hardware_specific/samd_mcu.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/current_sense/hardware_specific/stm32_mcu.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/current_sense/hardware_specific/stm32g4_hal.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/current_sense/hardware_specific/stm32g4_hal.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/current_sense/hardware_specific/stm32g4_mcu.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/current_sense/hardware_specific/teensy_mcu.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/drivers/BLDCDriver3PWM.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/drivers/BLDCDriver3PWM.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/drivers/BLDCDriver6PWM.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/drivers/BLDCDriver6PWM.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/drivers/StepperDriver2PWM.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/drivers/StepperDriver2PWM.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/drivers/StepperDriver4PWM.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/drivers/StepperDriver4PWM.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/drivers/hardware_api.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/drivers/hardware_specific/atmega2560_mcu.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/drivers/hardware_specific/atmega328_mcu.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/drivers/hardware_specific/atmega32u4_mcu.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/drivers/hardware_specific/due_mcu.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/drivers/hardware_specific/esp32_mcu.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/drivers/hardware_specific/esp8266_mcu.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/drivers/hardware_specific/generic_mcu.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/drivers/hardware_specific/portenta_h7_mcu.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/drivers/hardware_specific/rp2040_mcu.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/drivers/hardware_specific/samd21_mcu.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/drivers/hardware_specific/samd51_mcu.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/drivers/hardware_specific/samd_mcu.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/drivers/hardware_specific/samd_mcu.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/drivers/hardware_specific/stm32_mcu.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/drivers/hardware_specific/teensy_mcu.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/sensors/Encoder.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/sensors/Encoder.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/sensors/HallSensor.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/sensors/HallSensor.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/sensors/MagneticSensorAnalog.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/sensors/MagneticSensorAnalog.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/sensors/MagneticSensorI2C.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/sensors/MagneticSensorI2C.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/sensors/MagneticSensorPWM.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/sensors/MagneticSensorPWM.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/sensors/MagneticSensorSPI.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/Simple FOC/src/sensors/MagneticSensorSPI.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/.travis.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/LICENSE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/examples/Cartesian/Cartesian.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/examples/CartesianFast/CartesianFast.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/examples/SphericalFast/SphericalFast.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/examples/spherical/spherical.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/library.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/joystick/3d_Kugelstab.FCStd">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/joystick/3d_Kugelstab.iges">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/joystick/3d_Kugelstab.step">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/joystick/3d_KugelstabSTL.stl">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/joystick/Kugelhalter_3D_810_2.FCStd">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/joystick/Kugelhalter_3D_810_2.STL.stl">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/joystick/Kugelhalter_3D_810_2.iges">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/joystick/Kugelhalter_3D_810_2.step">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/linear_slider/3D_Linear_1_6.stl">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/linear_slider/3D_Linear_3_1.step">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/linear_slider/3D_Linear_4.step">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/linear_slider/3d_Linear_1_6.step">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/linear_slider/3d_Linear_2_9.step">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/linear_slider/3d_Linear_2_9.stl">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/linear_slider/3d_Linear_3_1.stl">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/linear_slider/3d_Linear_4.stl">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/rotate_knob/3D_Drehknopf.STL.stl">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/rotate_knob/3D_Drehknopf.step">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/rotate_knob/3D_Halter.STL.stl">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/printables/rotate_knob/3D_Halter.step">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/processing/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/processing/joystick/joystick.pde">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/processing/knob/knob.pde">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/processing/slider/slider.pde">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/processing/spaceship/spaceship.pde">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/processing/standard/standard.pde">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/src/Tlv493d.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/src/Tlv493d.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/src/util/BusInterface.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/src/util/BusInterface.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/src/util/BusInterface2.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/src/util/RegMask.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/src/util/RegMask.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/TLV493D-Magnetic-Sensor/src/util/Tlv493d_conf.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/.pio/libdeps/view/integrity.dat">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/lib/tlv/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/lib/tlv/LICENSE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/lib/tlv/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/lib/tlv/library.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/lib/tlv/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/lib/tlv/src/Tlv493d.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/lib/tlv/src/Tlv493d.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/lib/tlv/src/util/BusInterface.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/lib/tlv/src/util/BusInterface.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/lib/tlv/src/util/BusInterface2.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/lib/tlv/src/util/RegMask.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/lib/tlv/src/util/RegMask.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/lib/tlv/src/util/Tlv493d_conf.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/src/display_task.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/src/display_task.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/src/font/roboto_light_60.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/src/knob_data.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/src/logger.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/src/main.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/src/motor_task.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/src/motor_task.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/src/mt6701_sensor.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/src/mt6701_sensor.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/src/semaphore_guard.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/src/task.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/src/tlv_sensor.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/src/tlv_sensor.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/src/util.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/machavi/Swivel/smartknob/firmware/CMakeListsPrivate.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

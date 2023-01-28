@@ -1,0 +1,16 @@
+/home/machavi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.3345.126/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=view -G "CodeBlocks - Unix Makefiles" -S /home/machavi/Swivel/smartknob/firmware -B /home/machavi/Swivel/smartknob/firmware/cmake-build-view
+-- The C compiler identification is GNU 12.1.0
+-- The CXX compiler identification is GNU 12.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/machavi/Swivel/smartknob/firmware/cmake-build-view

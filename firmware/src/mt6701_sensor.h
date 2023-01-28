@@ -2,6 +2,7 @@
 
 #include <SimpleFOC.h>
 #include "driver/spi_master.h"
+#include "driver/spi_common.h"
 
 struct MT6701Error {
     bool error;

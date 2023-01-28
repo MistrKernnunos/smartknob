@@ -1,0 +1,5 @@
+/home/machavi/Swivel/smartknob/firmware/cmake-build-view/CMakeFiles/Production.dir
+/home/machavi/Swivel/smartknob/firmware/cmake-build-view/CMakeFiles/Debug.dir
+/home/machavi/Swivel/smartknob/firmware/cmake-build-view/CMakeFiles/Z_DUMMY_TARGET.dir
+/home/machavi/Swivel/smartknob/firmware/cmake-build-view/CMakeFiles/edit_cache.dir
+/home/machavi/Swivel/smartknob/firmware/cmake-build-view/CMakeFiles/rebuild_cache.dir

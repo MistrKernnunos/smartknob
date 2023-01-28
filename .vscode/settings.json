@@ -9,4 +9,7 @@
     "editor.formatOnType": false,
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "file",
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
 }
